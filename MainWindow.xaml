@@ -18,7 +18,7 @@
         <Button x:Name="btnCancelAlert" Content="取消鬧鐘" HorizontalAlignment="Left" Height="35" Margin="135,292,0,0" VerticalAlignment="Top" Width="105" Grid.Column="1" Click="btnCancelAlert_Click"/>
         <ComboBox x:Name="cmbHour" HorizontalAlignment="Left" Margin="325,295,0,0" VerticalAlignment="Top" Width="65" Height="20" Grid.Column="1"/>
         <ComboBox x:Name="cmbMin" HorizontalAlignment="Left" Margin="410,295,0,0" VerticalAlignment="Top" Width="65" Height="20" Grid.Column="1"/>
-        <MediaElement x:Name="meSound" HorizontalAlignment="Left" Height="120" Margin="560,215,0,0" VerticalAlignment="Top" Width="130" Grid.Column="1" Source="alert.wav" Volume="1" MediaEnded="meSound_MediaEnded"/>
+        <MediaElement x:Name="meSound" HorizontalAlignment="Left" Height="120" Margin="545.2,202,0,0" VerticalAlignment="Top" Width="130" Grid.Column="1" Source="alert.wav" Volume="1" MediaEnded="meSound_MediaEnded"/>
 
     </Grid>
 </Window>
